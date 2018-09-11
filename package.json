@@ -13,6 +13,7 @@
   "dependencies": {
     "bootstrap": "^4.1.1",
     "devicons": "^1.8.0",
+    "flag-icon-css": "^3.0.0",
     "font-awesome": "^4.7.0",
     "jQuery": "^1.7.4",
     "jquery": "^3.3.1",
@@ -24,6 +25,7 @@
     "popper.js": "^1.14.3",
     "prerender-spa-plugin": "^3.2.1",
     "vue": "^2.5.2",
+    "vue-flag-icon": "^1.0.6",
     "vue-lang": "^0.2.5",
     "xmlhttprequest": "^1.8.0"
   },
