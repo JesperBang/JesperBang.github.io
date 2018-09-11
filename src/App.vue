@@ -260,9 +260,9 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <h2 class="mb-5">{{ minterests[Locale] }}</h2>
+          <p>{{ interests1[Locale] }}</p>
+          <p class="mb-0">{{ interests2[Locale] }}</p>
         </div>
       </section>
 
@@ -333,10 +333,18 @@ export default {
       surname: 'Bang',
       address: 'Persillehaven 40 · 2730, Herlev · (+45) 22402817 ·',
       aboutMe: {
-        dk: 'Jeg er et 23 årigt innovativt tech-sind, som altid stræber efter at blive en bedre softwareudvikler. Når jeg ikke studerer på DTU, bruger jeg tid til at udvikle nye løsninger, hvor de er nødvendige og deltage i forhandlinger for at holde sig opdateret om den nyeste teknologi. Kan arbejde med et udvalg af software løsninger og teknologi, fra databasehåndtering, Agile udviklingsmetoder, især OOAD og SCRUM til højt og lavt niveau programmeringssprog.',
+        dk: 'Jeg er 23 år, yderst innovativ og tech minded. Jeg stræber altid efter at blive en bedre softwareudvikler. Når jeg ikke studerer på DTU, bruger jeg tid til at udvikle nye løsninger hvor jeg finder dem hjælpsomme eller nødvendige. Jeg deltager ofte i foredrag udenfor mit normalt studie for at holde mig opdateret om den nyeste teknologi. Jeg kan arbejde med et udvalg af software løsninger og teknologier, fra databaser, Agile udviklingsmetoder (især OOAD og SCRUM), til højt og lav niveau programmeringssprog.',
         en: 'I am a 23 year old innovative tech mind, who always strive to become a better software developer. When i am not studying at DTU, I spend time developing new solutions where they are needed and attending talks to stay up to date on the newest tech. Capable of working with an assortment of software solutions and technology, from database management, Agile development methods particularly OOAD and SCRUM to high and low-level programming languages.'
       },
       email: 'jesper.xenia@gmail.com',
+      interests1: {
+        en: 'Apart from being a software developer student, I enjoy most of my time with friends and family. As a prior elite swimmer and Team Danmark student i still spend time on workouts, both in fitness and in the swimming pool.',
+        dk: 'Udover at studere software udvikling bruger jeg meget af min tid med venner og familie. Som tidligere elitesvømmer og Team Danmark elev bruger jeg en del tid på trlning, både i fitness og i svømmehallen.'
+      },
+      interests2: {
+        en: 'Whenever i\'m not with friends, familiy or exercising, i enjoy watching tv-shows and movies, besides this i like to explore the newest tech, programs and tools to supplement and prepare my knowledge for the future.',
+        dk: 'Når jeg ikke er sammen med venner, familie eller dyrker motion, så nyder jeg at se tv-shows og film. Jeg kan godt lide at udforske den nyeste teknologi, programmer og værktøjer, for at supplere og forberede min viden til fremtiden.'
+      },
       prolang: {
         en: 'Programming Languages & Tools',
         dk: 'Programmeringssprog & Værktøjer'
@@ -475,35 +483,35 @@ export default {
           {
             position: 'Stagehand',
             company: 'Live Nation',
-            description: 'Opsætning af koncerter',
+            description: 'Arbejde med opsætning af koncerter som inkludere scene, lys, lyd, rekvisitter, riggings og special effects før shows. Arbejder hovedsageligt for store koncerter i København som eksempel; AC/DC, Coldplay, Adele, Rihanna, Muse, Beyoncé osv.',
             startDate: '2015',
             endDate: 'Present'
           },
           {
             position: 'Livredder',
             company: 'Hørsholm Svømmehal',
-            description: 'Vikar livredder i Hørsholm svømmehal',
+            description: 'Arbejdede som livredder vikar når der var behov for ekstra peronale. Dette inkludere at åbne svømmehallen om morgenen, lukke den om aftenen, overvåge bassinerne, rengøre omklædningsrummene og tjekke vandværdierne samt kvaliteten.',
             startDate: '2017',
             endDate: '2018'
           },
           {
             position: 'Svømme instruktør',
             company: 'Søllerød Svømmeklub',
-            description: '1 sæson som svømmetræner',
+            description: 'Arbejde 1 sæson som ansvarshavende træner hvor jeg designede træningsprogrammer og underviste børn og voksene i forskellige svømme teknikker.',
             startDate: '2013',
             endDate: '2014'
           },
           {
             position: 'Mobildiskotek og DJ',
             company: '',
-            description: 'Opsætning af diskotek og afspilning af musik',
+            description: 'Opsætning af diskotek og afspilning af musik til private og offentlige events.',
             startDate: '2012',
             endDate: '2013'
           },
           {
             position: 'Svømme instruktør',
             company: 'Hørsholm Svømmeforening',
-            description: 'Responsible coach for designing training programs to teaching kids and adults swimming techniques.',
+            description: 'Arbejde 1 sæson som ansvarshavende træner hvor jeg designede træningsprogrammer og underviste børn i forskellige svømme teknikker.',
             startDate: '2010',
             endDate: '2013'
           }
