@@ -170,7 +170,6 @@
             <li class="list-inline-item">
               <font size="4">{{ skilllang.fluent[Locale] }}&emsp;</font><br/>
               <flag iso="gb" style="font-size:30px"/>
-              <flag iso="us" style="font-size:30px"/>
             </li>
             <li class="list-inline-item">
               <font size="4">{{ skilllang.understand[Locale] }}</font><br/>
@@ -202,7 +201,7 @@
             <li class="list-inline-item" title="Android">
               <i class="devicons devicons-android"></i>
             </li>
-            <li class="list-inline-item" title="IOS - Apple">
+            <li class="list-inline-item" title="IOS - Swift">
               <i class="devicons devicons-swift"></i>
             </li>
             <li class="list-inline-item" title="Amazon cloud">
@@ -262,7 +261,8 @@
         <div class="my-auto">
           <h2 class="mb-5">{{ minterests[Locale] }}</h2>
           <p>{{ interests1[Locale] }}</p>
-          <p class="mb-0">{{ interests2[Locale] }}</p>
+          <p>{{ interests2[Locale] }}</p>
+          <p class="mb-0">{{ interests3[Locale] }}</p>
         </div>
       </section>
 
@@ -328,22 +328,34 @@ export default {
         dk: 'Kurser',
         en: 'Courses'
       },
-      title: 'Jesper Bang Resume & CV',
+      may: {
+        dk: 'Maj',
+        en: 'May'
+      },
+      present: {
+        dk: 'Nu',
+        en: 'Present'
+      },
+      title: 'Jesper Bang Portfolio',
       name: 'Jesper',
       surname: 'Bang',
       address: 'Persillehaven 40 · 2730, Herlev · (+45) 22402817 ·',
       aboutMe: {
-        dk: 'Jeg er 23 år, yderst innovativ og tech minded. Jeg stræber altid efter at blive en bedre softwareudvikler. Når jeg ikke studerer på DTU, bruger jeg tid til at udvikle nye løsninger hvor jeg finder dem hjælpsomme eller nødvendige. Jeg deltager ofte i foredrag udenfor mit normalt studie for at holde mig opdateret om den nyeste teknologi. Jeg kan arbejde med et udvalg af software løsninger og teknologier, fra databaser, Agile udviklingsmetoder (især OOAD og SCRUM), til højt og lav niveau programmeringssprog.',
+        dk: 'Jeg er 23 år, yderst innovativ og tech minded, og mit mål er, at blive en bedre softwareudvikler. Når jeg ikke studerer på DTU, bruger jeg tid på at udvikle software løsninger. Jeg deltager ofte i foredrag uden for mit normale studie for at holde mig opdateret om den nyeste teknologi. Og jeg kan arbejde med et udvalg af software løsninger og teknologier fra cloud services, databaser, Agile udviklingsmetoder (især OOAD og SCRUM), til høj og lav niveau programmeringssprog.',
         en: 'I am a 23 year old innovative tech mind, who always strive to become a better software developer. When i am not studying at DTU, I spend time developing new solutions where they are needed and attending talks to stay up to date on the newest tech. Capable of working with an assortment of software solutions and technology, from database management, Agile development methods particularly OOAD and SCRUM to high and low-level programming languages.'
       },
       email: 'jesper.xenia@gmail.com',
       interests1: {
         en: 'Apart from being a software developer student, I enjoy most of my time with friends and family. As a prior elite swimmer and Team Danmark student i still spend time on workouts, both in fitness and in the swimming pool.',
-        dk: 'Udover at studere software udvikling bruger jeg meget af min tid med venner og familie. Som tidligere elitesvømmer og Team Danmark elev bruger jeg en del tid på trlning, både i fitness og i svømmehallen.'
+        dk: 'Udover at studere software udvikling bruger jeg meget af min tid med venner og familie. Som tidligere elitesvømmer og Team Danmark elev, er træning en del af min hverdag, hvor jeg ofte træner fitness og svømnmer for at holde mig i form.'
       },
       interests2: {
         en: 'Whenever i\'m not with friends, familiy or exercising, i enjoy watching tv-shows and movies, besides this i like to explore the newest tech, programs and tools to supplement and prepare my knowledge for the future.',
-        dk: 'Når jeg ikke er sammen med venner, familie eller dyrker motion, så nyder jeg at se tv-shows og film. Jeg kan godt lide at udforske den nyeste teknologi, programmer og værktøjer, for at supplere og forberede min viden til fremtiden.'
+        dk: 'Jeg går ofte i biografen med gode venner og kan godt lide, at se nogle gode film.'
+      },
+      interests3: {
+        en: '',
+        dk: 'Jeg kan godt lide, at udforske den nyeste teknologi, programmer og værktøjer, for at supplerer og forbedere min viden til fremtiden. Det er spændende, at prøve forskellige ideer af, og lære nye ting i den forbindelse.'
       },
       prolang: {
         en: 'Programming Languages & Tools',
@@ -405,14 +417,14 @@ export default {
           subtitle: 'Msc (Eng.)',
           subject: 'Network Technology and IT',
           fromto: 'September 2014 - May 2016',
-          finish: 'Did not finish'
+          finish: 'Changed study'
         },
         dk: {
           title: 'Danmarks Tekniske Universitet - DTU',
           subtitle: 'Civilingeniør',
           subject: 'NETVÆRKSTEKNOLOGI OG IT',
-          fromto: 'September 2014 - May 2016',
-          finish: 'Ikke færdiggjort'
+          fromto: 'September 2014 - Maj 2016',
+          finish: 'Studieskift'
         }
       },
       edu1: {
@@ -483,23 +495,16 @@ export default {
           {
             position: 'Stagehand',
             company: 'Live Nation',
-            description: 'Arbejde med opsætning af koncerter som inkludere scene, lys, lyd, rekvisitter, riggings og special effects før shows. Arbejder hovedsageligt for store koncerter i København som eksempel; AC/DC, Coldplay, Adele, Rihanna, Muse, Beyoncé osv.',
+            description: 'Arbejder med opsætning af koncerter som inkluderer scene, lys, lyd, rekvisitter, riggings og special effects før shows. Arbejder hovedsageligt for store koncerter i København som eksempel; AC/DC, Coldplay, Adele, Rihanna, Muse, Beyoncé osv. Det er utrolig spændende, at få indsigt i, hvad det kræver af teknik for at få så store shows op at køre.',
             startDate: '2015',
-            endDate: 'Present'
+            endDate: 'Nu'
           },
           {
             position: 'Livredder',
             company: 'Hørsholm Svømmehal',
-            description: 'Arbejdede som livredder vikar når der var behov for ekstra peronale. Dette inkludere at åbne svømmehallen om morgenen, lukke den om aftenen, overvåge bassinerne, rengøre omklædningsrummene og tjekke vandværdierne samt kvaliteten.',
+            description: 'Som tidligere konkurrencesvømmer, har jeg i mange år arbejdet som livredder, når der var behov for ekstra peronale. Dette inkludere at åbne svømmehallen om morgenen, lukke den om aftenen, overvåge bassinerne, rengøre omklædningsrummene og tjekke vandværdierne samt vandkvaliteten. Som livredder betyder det, at man altid er opdateret på førstehjælp og tager den årlige livredderprøve.',
             startDate: '2017',
             endDate: '2018'
-          },
-          {
-            position: 'Svømme instruktør',
-            company: 'Søllerød Svømmeklub',
-            description: 'Arbejde 1 sæson som ansvarshavende træner hvor jeg designede træningsprogrammer og underviste børn og voksene i forskellige svømme teknikker.',
-            startDate: '2013',
-            endDate: '2014'
           },
           {
             position: 'Mobildiskotek og DJ',
@@ -510,10 +515,10 @@ export default {
           },
           {
             position: 'Svømme instruktør',
-            company: 'Hørsholm Svømmeforening',
-            description: 'Arbejde 1 sæson som ansvarshavende træner hvor jeg designede træningsprogrammer og underviste børn i forskellige svømme teknikker.',
+            company: 'Hørsholm Svømmeforening & Søllerød Svømmeklub',
+            description: 'Jeg har arbejdet som ansvarshavende træner, hvor jeg designede træningsprogrammer og underviste børn og voksene i forskellige svømmeteknikker. Dette har givet mig stor indsigt i, at arbejde med forskellige mennesker og lært mig, forskellige metoder til, at få tingene til at lykkedes.',
             startDate: '2010',
-            endDate: '2013'
+            endDate: '2014'
           }
         ]
       }
