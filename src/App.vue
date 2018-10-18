@@ -341,20 +341,20 @@ export default {
       surname: 'Bang',
       address: 'Persillehaven 40 · 2730, Herlev · (+45) 22402817 ·',
       aboutMe: {
-        dk: 'Jeg er 23 år, yderst innovativ og tech minded, og mit mål er, at blive en bedre softwareudvikler. Når jeg ikke studerer på DTU, bruger jeg tid på at udvikle software løsninger. Jeg deltager ofte i foredrag uden for mit normale studie for at holde mig opdateret om den nyeste teknologi. Og jeg kan arbejde med et udvalg af software løsninger og teknologier fra cloud services, databaser, Agile udviklingsmetoder (især OOAD og SCRUM), til høj og lav niveau programmeringssprog.',
-        en: 'I am a 23 year old innovative tech mind, who always strive to become a better software developer. When i am not studying at DTU, I spend time developing new solutions where they are needed and attending talks to stay up to date on the newest tech. Capable of working with an assortment of software solutions and technology, from database management, Agile development methods particularly OOAD and SCRUM to high and low-level programming languages.'
+        dk: 'Jeg er 23 år, yderst innovativ og tech minded, og mit mål er, at blive en bedre softwareudvikler. Når jeg ikke studerer på DTU, bruger jeg tid på at udvikle software løsninger. Jeg deltager ofte i foredrag uden for mit normale studie for at holde mig opdateret om den nyeste teknologi. Og jeg kan arbejde med et udvalg af software løsninger og teknologier fra cloud services, databaser, Agile udviklingsmetoder som SCRUM, OOAD til høj og lav niveau programmeringssprog.',
+        en: 'I am a 23 year old innovative tech mind, who always strive to become a better software developer. When i am not studying at DTU, I spend time developing new solutions. I often attend talks, outside my normal study, to stay up to date on the newest tech. Capable of working with an assortment of software solutions and technology, from database management, Agile development methods particularly OOAD and SCRUM to high and low-level programming languages.'
       },
       email: 'jesper.xenia@gmail.com',
       interests1: {
-        en: 'Apart from being a software developer student, I enjoy most of my time with friends and family. As a prior elite swimmer and Team Danmark student i still spend time on workouts, both in fitness and in the swimming pool.',
+        en: 'Apart from being a software developer student, I enjoy most of my time with friends and family. As a prior elite swimmer and Team Danmark student a lot of my time is spend on workouts, both in fitness and in the swimming pool to stay fit.',
         dk: 'Udover at studere software udvikling bruger jeg meget af min tid med venner og familie. Som tidligere elitesvømmer og Team Danmark elev, er træning en del af min hverdag, hvor jeg ofte træner fitness og svømnmer for at holde mig i form.'
       },
       interests2: {
-        en: 'Whenever i\'m not with friends, familiy or exercising, i enjoy watching tv-shows and movies, besides this i like to explore the newest tech, programs and tools to supplement and prepare my knowledge for the future.',
+        en: 'I often go to the cinema with friends and enjoy watching good movies.',
         dk: 'Jeg går ofte i biografen med gode venner og kan godt lide, at se nogle gode film.'
       },
       interests3: {
-        en: '',
+        en: 'I like to explore the newest tech, programs and tools to supplement and prepare my knowledge for the future. It\'s exciting to try different ideas and learn new methods while doing so.',
         dk: 'Jeg kan godt lide, at udforske den nyeste teknologi, programmer og værktøjer, for at supplerer og forbedere min viden til fremtiden. Det er spændende, at prøve forskellige ideer af, og lære nye ting i den forbindelse.'
       },
       prolang: {
@@ -458,37 +458,30 @@ export default {
           {
             position: 'Stagehand',
             company: 'Live Nation',
-            description: 'Working during shows and setting up scenery, lights, sound, props, rigging and special effects before shows for big concerts mainly in Copenhagen. Examples. AC/DC, Coldplay, Adele, Rihanna, Muse, Beyoncé and so forth.',
+            description: 'Working during shows and setting up scenery, lights, sound, props, rigging and special effects before shows for big concerts mainly in Copenhagen. Examples. AC/DC, Coldplay, Adele, Rihanna, Muse, Beyoncé and so forth. It\'s really exciting learning what it takes to setup and run big shows like these.',
             startDate: '2015',
             endDate: 'Present'
           },
           {
             position: 'Lifeguard',
             company: 'Hørsholm Svømmehal',
-            description: 'Working as a spare lifeguard when additional personal was needed. Opening in the mornings and closing at evenings. Guarding pools, cleaning changing room and monitoring water values',
+            description: 'As a prior elite swimmer i worked as a spare lifeguard when additional personal was needed. Opening in the mornings and closing at evenings. Guarding pools, cleaning changing room and monitoring water values. As a lifeguard you must keep your first aid up to date and attend the yearly lifeguard test.',
             startDate: '2017',
             endDate: '2018'
           },
           {
-            position: 'Swimming instructor',
-            company: 'Søllerød Svømmeklub',
-            description: 'Working 1 season as responsible coach for designing training programs to teaching kids and adults swimming techniques.',
-            startDate: '2013',
-            endDate: '2014'
-          },
-          {
             position: 'Mobile DJ',
             company: '',
-            description: 'Playing private and public events as DJ.',
+            description: 'Setup of equipment and playing music at private and pulbic events',
             startDate: '2012',
             endDate: '2013'
           },
           {
             position: 'Swimming instructor',
-            company: 'Hørsholm Svømmeforening',
-            description: 'Responsible coach for designing training programs to teaching kids and adults swimming techniques.',
+            company: 'Hørsholm Svømmeforening & Søllerød Svømmeklub',
+            description: 'Responsible coach for designing training programs to teaching kids and adults swimming techniques. This has given me great insight into working with different people and different ways to get the job done.',
             startDate: '2010',
-            endDate: '2013'
+            endDate: '2014'
           }
         ],
         dk: [
