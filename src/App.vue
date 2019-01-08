@@ -30,10 +30,6 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">{{ mawards[Locale] }}</a>
           </li>
-          <li>
-            <img id="img" height="35" width="35" src="./assets/Flag_denmark.png" v-on:click="dklang">
-            <img id="img" height="35" width="35" src="./assets/Flag_kingdom.png" v-on:click="enlang">
-          </li>
         </ul>
       </div>
     </nav>
@@ -77,7 +73,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://github.com/MrKimberwood">
+                <a href="https://github.com/Jesperbang">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -115,7 +111,7 @@
               <h3 class="mb-0">{{ edu3[Locale].title }}</h3>
               <div class="subheading mb-3">{{ edu3[Locale].subtitle }}</div>
               <div>{{ edu3[Locale].subject }}</div>
-              <a href="">Grades - coming soon</a>
+              <a href="http://cn.inside.dtu.dk/cnnet/Grades/Public.aspx?Id=QCDRCASPH5">Grades</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">{{ edu3[Locale].fromto }}</span>
@@ -456,6 +452,13 @@ export default {
       experience: {
         en: [
           {
+            position: 'Frivillig Indkøber & Bartender',
+            company: 'Café studiestoppet–kælderbaren',
+            description: 'Som frivillig indkøber sørger jeg for at baren altid er fyldt og der er ekstra varer på lageret. Jeg står for bestillingerne hos bl.a. Carlsberg og Catering, når der skal fyldes op. Derudover står jeg også selv som frivillig bartender for at holde studenter baren kørende.',
+            startDate: '2017',
+            endDate: 'Present'
+          },
+          {
             position: 'Stagehand',
             company: 'Live Nation',
             description: 'Working during shows and setting up scenery, lights, sound, props, rigging and special effects before shows for big concerts mainly in Copenhagen. Examples. AC/DC, Coldplay, Adele, Rihanna, Muse, Beyoncé and so forth. It\'s really exciting learning what it takes to setup and run big shows like these.',
@@ -485,6 +488,13 @@ export default {
           }
         ],
         dk: [
+          {
+            position: 'Frivillig Indkøber & Bartender',
+            company: 'Café studiestoppet–kælderbaren',
+            description: 'Som frivillig indkøber sørger jeg for at baren altid er fyldt og der er ekstra varer på lageret. Jeg står for bestillingerne hos bl.a. Carlsberg og Catering, når der skal fyldes op. Derudover står jeg også selv som frivillig bartender for at holde studenter baren kørende.',
+            startDate: '2017',
+            endDate: 'Nu'
+          },
           {
             position: 'Stagehand',
             company: 'Live Nation',
@@ -544,13 +554,16 @@ export default {
     })
   },
   methods: {
-    dklang: function () {
+    dklang: function (event) {
       this.Locale = 'dk'
       this.$forceUpdate()
     },
-    enlang: function () {
+    enlang: function (event) {
       this.Locale = 'en'
+      console.log('en')
       this.$forceUpdate()
+      console.log('Force update')
+      return this.Locale
     }
   }
 }
@@ -610,6 +623,24 @@ h2 {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
+}
+#img-button-dk {
+  background-image: url('.\assets\Flag_denmark.png');
+  position: relative;
+  padding: 0px;
+  width: 40px;
+  height: 30px;
+  background-size: 100%;
+  background-size: 35px auto;
+}
+#img-button-en {
+  background-image: url('.\assets\Flag_kingdom.png');
+  position: relative;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  background-size: 35px auto;
 }
 @media (min-width: 992px) {
   #sideNav {
