@@ -452,6 +452,13 @@ export default {
       experience: {
         en: [
           {
+            position: 'Developer',
+            company: 'Netcompany',
+            description: 'Som Developer hos Netcompany er jeg til daglig i direkte kontakt med kunden og holder mig altid opdateret på de nyeste trends indenfor udvikling af software løsninger. ',
+            startDate: '2019',
+            endDate: 'Present'
+          },
+          {
             position: 'Frivillig Indkøber & Bartender',
             company: 'Café studiestoppet–kælderbaren',
             description: 'Som frivillig indkøber sørger jeg for at baren altid er fyldt og der er ekstra varer på lageret. Jeg står for bestillingerne hos bl.a. Carlsberg og Catering, når der skal fyldes op. Derudover står jeg også selv som frivillig bartender for at holde studenter baren kørende.',
@@ -473,13 +480,6 @@ export default {
             endDate: '2018'
           },
           {
-            position: 'Mobile DJ',
-            company: '',
-            description: 'Setup of equipment and playing music at private and pulbic events',
-            startDate: '2012',
-            endDate: '2013'
-          },
-          {
             position: 'Swimming instructor',
             company: 'Hørsholm Svømmeforening & Søllerød Svømmeklub',
             description: 'Responsible coach for designing training programs to teaching kids and adults swimming techniques. This has given me great insight into working with different people and different ways to get the job done.',
@@ -488,6 +488,13 @@ export default {
           }
         ],
         dk: [
+          {
+            position: 'Developer',
+            company: 'Netcompany',
+            description: 'Som Developer hos Netcompany er jeg til daglig i direkte kontakt med kunden og holder mig altid opdateret på de nyeste trends indenfor udvikling af software løsninger. ',
+            startDate: '2019',
+            endDate: 'Nu'
+          },
           {
             position: 'Frivillig Indkøber & Bartender',
             company: 'Café studiestoppet–kælderbaren',
@@ -508,13 +515,6 @@ export default {
             description: 'Som tidligere konkurrencesvømmer, har jeg i mange år arbejdet som livredder, når der var behov for ekstra peronale. Dette inkludere at åbne svømmehallen om morgenen, lukke den om aftenen, overvåge bassinerne, rengøre omklædningsrummene og tjekke vandværdierne samt vandkvaliteten. Som livredder betyder det, at man altid er opdateret på førstehjælp og tager den årlige livredderprøve.',
             startDate: '2017',
             endDate: '2018'
-          },
-          {
-            position: 'Mobildiskotek og DJ',
-            company: '',
-            description: 'Opsætning af diskotek og afspilning af musik til private og offentlige events.',
-            startDate: '2012',
-            endDate: '2013'
           },
           {
             position: 'Svømme instruktør',
