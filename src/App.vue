@@ -111,7 +111,7 @@
               <h3 class="mb-0">{{ edu3[Locale].title }}</h3>
               <div class="subheading mb-3">{{ edu3[Locale].subtitle }}</div>
               <div>{{ edu3[Locale].subject }}</div>
-              <a href="http://cn.inside.dtu.dk/cnnet/Grades/Public.aspx?Id=QCDRCASPH5">Grades</a>
+              <a href="	http://cn.inside.dtu.dk/cnnet/Grades/Public.aspx?Id=EPPH2V82AE">Karakterer</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">{{ edu3[Locale].fromto }}</span>
